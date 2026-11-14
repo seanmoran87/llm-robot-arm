@@ -1,0 +1,6 @@
+# Exact versions this project was built and tested with (Python 3.13, Nov 2026).
+mujoco==4.0.1        # physics engine + viewer + offscreen renderer
+numpy==2.5.4         # arrays and maths
+pillow==13.0.0       # saving PNG snapshots and the GIF recording
+anthropic==2.8.0     # the LLM (Claude) client; only needed for --planner llm
+pytest==9.2.0        # runs the automated tests in tests/
